@@ -1,0 +1,16 @@
+{
+    "name": "xml-to-redis",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js ./config.xml",
+        "test": "jest"
+    },
+    "dependencies": {
+        "redis": "^3.1.2",
+        "xml2js": "^0.4.23"
+    },
+    "devDependencies": {
+        "jest": "^27.2.0"
+    }
+}
